@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+    <title>北歐廚房</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><i class="fas fa-cookie text-primary"></i>
+            <span">北歐廚房</span>
+        </a>
+        <div class="dropdown ml-auto">
+            <button class="btn btn-sm btn-cart" type="button" data-toggle="dropdown" id="dropdownMenuButton"
+                aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="badge badge-pill badge-danger">2</span>
+            </button>
+            <div class="dropdown-menu dropdown-menu-right" style="min-width: 350px">
+                <div class="px-4 py-3">
+                    <h6>已選擇商品</h6>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a href="#">
+                                        <i class="far fa-trash-alt  text-primary"></i>
+                                    </a>
+                                </td>
+                                <td>馬卡龍</td>
+                                <td>1 盒</td>
+                                <td>$200</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="#">
+                                        <i class="far fa-trash-alt  text-primary"></i>
+                                    </a>
+                                </td>
+                                <td>巧克力雪糕</td>
+                                <td>1 根</td>
+                                <td>$80</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a href="#" class="btn btn-primary btn-block text-white"><i class="fas fa-shopping-cart"></i>
+                        結帳去</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid  jumbotron-bg d-flex align-items-end">
+        <div class="container">
+            <div class="bg-lighter">
+                <h1 class="display-4">來場浪漫的甜點旅行</h1>
+                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="list-group sticky-top">
+                    <a href="#pane-1" class="list-group-item list-group-item-action active" data-toggle="list" role="
+                        tab">
+                        <i class="fas fa-cookie"></i>全部商品
+                    </a>
+                    <a href="#pane-2" class="list-group-item list-group-item-action " data-toggle="list" role="tab"><i
+                            class="fas fa-cookie "></i>無法抗拒巧克力</a>
+                    <a href="#pane-3" class="list-group-item list-group-item-action " data-toggle="list" role="tab"><i
+                            class="fas fa-cookie "></i>清涼暢快冰棒</a>
+                    <a href="#pane-4" class="list-group-item list-group-item-action " data-toggle="list" role="tab"><i
+                            class="fas fa-cookie "></i>繽紛糖果</a>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Search for..." aria-label="Username"
+                                aria-describedby="basic-addon1">
+                            <div class="input-group-append">
+                                <button type="button" class="btn btn-primary"><i class="fas fa-search"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="pane-1">
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="card text-center h-100 box-shadow">
+                                    <img src="img/24.jpg" class="card-img-top" style="height:170px" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text text-left">This is a wider card with supporting text below
+                                            as a
+                                            natural lead-in to additional content.
+                                            This content is a little bit longer.</p>
+                                    </div>
+                                    <div class="card-footer border-top-0 bg-white">
+                                        <a href="#" class="btn btn-outline-secondary btn-block">搶購去</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card h-100 text-center box-shadow">
+                                    <img src="img/16.jpg" class="card-img-top" style="height:170px" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text text-left">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer border-top-0 bg-white">
+                                        <a href="#" class="btn btn-outline-secondary btn-block disabled">補貨中</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card h-100 text-center box-shadow">
+                                    <img src="img/4.jpg" class="card-img-top" style="height:170px" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text text-left">Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                    <div class="card-footer border-top-0 bg-white">
+                                        <a href="#" class="btn btn-outline-secondary btn-block ">搶購去</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card h-100 text-center box-shadow">
+                                    <img src="img/19.jpg" class="card-img-top" style="height:170px" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text text-left">Lorem ipsum dolor sit amet consectetur.</p>
+                                    </div>
+                                    <div class="card-footer border-top-0 bg-white">
+                                        <a href="#" class="btn btn-outline-secondary btn-block">搶購去</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card h-100 text-center mb-4 box-shadow">
+                                    <img src="img/9.jpg" class="card-img-top" style="height:170px" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text text-left">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit.
+                                            Expedita, possimus.</p>
+                                    </div>
+                                    <div class="card-footer border-top-0 bg-white">
+                                        <div class="btn-group" role="group" aria-label="Basic example">
+                                            <a href="#" class="btn btn-outline-secondary disabled">50入</a>
+                                            <a href="#" class="btn btn-outline-secondary">100入</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card h-100 text-center box-shadow">
+                                    <img src="img/18.jpg" class="card-img-top" style="height:170px" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text text-left">This is a wider card with supporting text below
+                                            as a
+                                            natural lead-in to additional
+                                            content.
+                                            This content is a little bit longer.</p>
+                                    </div>
+                                    <div class="card-footer border-top-0 bg-white">
+                                        <a href="#" class="btn btn-outline-secondary btn-block">搶購去</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="pane-2">
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="card text-center h-100 box-shadow">
+                                    <img src="img/24.jpg" class="card-img-top" style="height:170px" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text text-left">This is a wider card with supporting text below
+                                            as a
+                                            natural lead-in to additional content.
+                                            This content is a little bit longer.</p>
+                                    </div>
+                                    <div class="card-footer border-top-0 bg-white">
+                                        <a href="#" class="btn btn-outline-secondary btn-block">搶購去</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card h-100 text-center box-shadow">
+                                    <img src="img/16.jpg" class="card-img-top" style="height:170px" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text text-left">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer border-top-0 bg-white">
+                                        <a href="#" class="btn btn-outline-secondary btn-block disabled">補貨中</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card h-100 text-center box-shadow">
+                                    <img src="img/4.jpg" class="card-img-top" style="height:170px" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text text-left">Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                    <div class="card-footer border-top-0 bg-white">
+                                        <a href="#" class="btn btn-outline-secondary btn-block ">搶購去</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card h-100 text-center box-shadow">
+                                    <img src="img/19.jpg" class="card-img-top" style="height:170px" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text text-left">Lorem ipsum dolor sit amet consectetur.</p>
+                                    </div>
+                                    <div class="card-footer border-top-0 bg-white">
+                                        <a href="#" class="btn btn-outline-secondary btn-block">搶購去</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="pane-4">
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="card h-100 text-center mb-4 box-shadow">
+                                    <img src="img/9.jpg" class="card-img-top" style="height:170px" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text text-left">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit.
+                                            Expedita, possimus.</p>
+                                    </div>
+                                    <div class="card-footer border-top-0 bg-white">
+                                        <div class="btn-group" role="group" aria-label="Basic example">
+                                            <a href="#" class="btn btn-outline-secondary disabled">50入</a>
+                                            <a href="#" class="btn btn-outline-secondary">100入</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="pane-3">
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="card h-100 text-center box-shadow">
+                                    <img src="img/18.jpg" class="card-img-top" style="height:170px" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text text-left">This is a wider card with supporting text below
+                                            as a
+                                            natural lead-in to additional
+                                            content.
+                                            This content is a little bit longer.</p>
+                                    </div>
+                                    <div class="card-footer border-top-0 bg-white">
+                                        <a href="#" class="btn btn-outline-secondary btn-block">搶購去</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <hr/>
+        <div class="container my-5" style="margin-top: 100px">
+            <nav aria-label="breadcrumb my-5 ">
+                <ol class="breadcrumb bg-white pl-0">
+                    <li class="breadcrumb-item"><a href="#">首頁</a></li>
+                    <li class="breadcrumb-item active"><a href="#">清涼暢快冰棒</a></li>
+                    <li class="breadcrumb-item" aria-current="page">冰棒口味選擇</li>
+                </ol>
+            </nav>    
+            <div class="row">
+                <div class="col-md-4">
+                <div class="sticky-top" style="top:15px">
+                        <h1 class="mb-4">冰棒口味選擇</h1>
+                        <div class="d-flex justify-content-end align-items-end">
+                            <del class="localprice">售價 $120</del>
+                            <div class="h3 ml-auto mb-0 text-danger">
+                                <small>特價 NT$</small>
+                                <strong>80</strong>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="mb-3">規格：</div>
+                        <div class="btn-group btn-group-sm btn-group-toggle mb-3 " data-toggle="buttons">
+                            <label class="btn btn-outline-secondary active">
+                                <input type="radio" name="options" id="option7" autocomplete="off" checked> 甜筒
+                            </label>
+                            <label class="btn btn-outline-secondary">
+                                <input type="radio" name="options" id="option8" autocomplete="off"> 冰棒
+                            </label>
+                        </div>
+                        <div class="mb-3">口味：</div>
+                        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                        
+                            <div class="btn-group btn-group-sm  btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-outline-secondary active">
+                                    <input type="radio" name="options" id="option1" autocomplete="off" checked> 水果
+                                </label>
+                                <label class="btn btn-outline-secondary">
+                                    <input type="radio" name="options" id="option2" autocomplete="off"> 香草
+                                </label>
+                                <label class="btn btn-outline-secondary">
+                                    <input type="radio" name="options" id="option5" autocomplete="off"> 奇異果
+                                </label>
+                                <label class="btn btn-outline-secondary">
+                                    <input type="radio" name="options" id="option3" autocomplete="off"> 草莓
+                                </label>
+                                <label class="btn btn-outline-secondary disabled">
+                                    <input type="radio" name="options" id="option4" autocomplete="off" disabled> 西瓜
+                                </label>
+                                <label class="btn btn-outline-secondary">
+                                    <input type="radio" name="options" id="option5" autocomplete="off"> 巧克力
+                                </label>
+                            </div>
+                        </div>
+                        <div class="input-group input-group-sm mt-5">
+                            <select name="" id="" class="form-control mr-2">
+                                <option value="#">1根</option>
+                                <option value="#">2根</option>
+                                <option value="#">3根</option>
+                                <option value="#">4根</option>
+                                <option value="#">5根</option>
+                                <option value="#">6根</option>
+                                <option value="#">7根</option>
+                            </select>
+                            <a href="#" class="btn btn-primary btn-sm">加入購物車</a>
+                        </div>
+                </div>
+                </div>
+                <div class="col-md-8 mt-3">
+                    <h2>冰棒口味選擇</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus quae saepe nesciunt minus,
+                        voluptatum nostrum velit aspernatur sit? Quaerat, nesciunt.</p>
+                    <h3 class="text-center">甜筒冰棒</h3>
+                    <img class="img-fluid " src="img/26.jpg" alt="">
+                    <h3 class="text-center mt-5">水果冰棒</h3>
+                    <img class="img-fluid" src="img/27.jpg" alt="">
+                    <h3 class="text-center mt-5">巧克力口味冰棒</h3>
+                    <img class="img-fluid" src="img/18.jpg" alt="">
+                    <div class="explain my-5 p-4">
+                        <div class="h3 text-center ">購物說明</div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione doloremque dolorum nemo ducimus
+                            laudantium perferendis ad odit libero nulla in expedita natus nisi officia eaque maiores, labore
+                            sint! Facere dolorum unde nulla nisi illo accusamus quo aliquam qui culpa voluptatem?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr/>
+        <div class="container py-3 my-5">
+            <h1 class="text-center text-secondary mb-4">北歐廚房 結帳</h1>
+            <div class="form-row text-center">
+                <div class="col-12 col-sm-4 alert alert-primary alert-rounded">1.輸入訂單資料</div>
+                <div class="col-12 col-sm-4 alert alert-light alert-rounded">2.金流付款</div>
+                <div class="col-12 col-sm-4 alert alert-light alert-rounded">3.完成</div>
+            </div>
+        </div>   
+        <div class="container mb-5">
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-8">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header d-flex" id="headingTwo">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    顯示購物車細節
+                                    <i class="fas fa-angle-down"></i>
+                                </button>
+                                <div class="h2 ml-auto">$340</div>
+                            </div>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th width="40"></th>
+                                        <th width="120"></th>
+                                        <th>商品名稱</th>
+                                        <th width="70">數量</th>
+                                        <th width="100">小計</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td >
+                                            <a href="#" class="btn">
+                                                <i class="far fa-trash-alt  text-primary" data-toggle="modal"
+                                            data-target="#deleteModal" data-delete="確認刪除 馬卡龍 1盒"> </i>
+                                            </a>
+                                        </td>
+                                        <td><img src="img/8.jpg" class="w-100 img-thumbnail" alt=""></td>
+                                        <td>馬卡龍
+                                        <td>1 盒</td>
+                                        <td class="text-right">$200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#" class="btn">
+                                                <i class="far fa-trash-alt  text-primary" text-primary" data-toggle="modal"
+                                            data-target="#deleteModal" data-delete="確認刪除 巧克力雪糕 1根"></i>
+                                            </a>
+                                        </td>
+                                        <td><img src="img/18.jpg" class="w-100 img-thumbnail" alt=""></td>
+                                        <td>巧克力雪糕</td>
+                                        <td>1 根</td>
+                                        <td class="text-right">$80</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4" class="text-right">運費</td>
+                                        <td class="text-right">$60</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4"class="text-right" ><b>合計</b></td>
+                                        <td class="text-right"><strong>$340</strong></td>
+                                    </tr>
+                                </tbody>
+                            </table>   
+                        </div>
+                    </div>
+                    <div class="h4 text-center text-secondary my-4">訂購人資訊</div>
+                    <form class="needs-validation" novalidate>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4">姓名</label>
+                                <input type="text" class="form-control" id="inputEmail4" placeholder="姓名" required>
+                                <div class="invalid-feedback">
+                                請輸入姓名！
+                                </div>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputPassword4">Email</label>
+                                <input type="email" class="form-control" id="inputPassword4" placeholder="example@gmail.com"required >
+                            <div class="invalid-feedback">
+                                請輸入店電子郵件！
+                            </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputAddress">縣市</label>
+                                <select name="" id="" class="form-control" >
+                                    <option value="">台北</option>
+                                    <option value="">南投</option>
+                                    <option value="">台東</option>
+                                    <option value="">宜蘭</option>
+                                    <option value="">彰化</option>
+                                    <option value="">台中</option>
+                                    <option value="">台南</option>
+                                    <option value="">屏東</option>
+                                    <option value="">花蓮</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputAddress2">郵遞區號</label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="請輸入郵遞區號" required >
+                            <div class="invalid-feedback">
+                                請輸入郵遞區號！
+                            </div>
+                            </div>
+                        </div>                       
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <label for="inputCity">地址</label>
+                                <input type="text" class="form-control" id="inputCity" placeholder="中山區景美路29巷2弄100號" required>
+                            <div class="invalid-feedback">
+                                請輸入地址！
+                            </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check d-flex justify-content-end">
+                                <button class="btn btn-secondary text-white mr-3" type="button">繼續選購</button>
+                                <button class="btn btn-primary" type="submit">確認付款</button>
+                            </div>
+                        </div>
+                    </form>
+                    <script>
+                        // Example starter JavaScript for disabling form submissions if there are invalid fields
+                        (function () {
+                            'use strict';
+                            window.addEventListener('load', function () {
+                                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                                var forms = document.getElementsByClassName('needs-validation');
+                                // Loop over them and prevent submission
+                                var validation = Array.prototype.filter.call(forms, function (form) {
+                                    form.addEventListener('submit', function (event) {
+                                        if (form.checkValidity() === false) {
+                                            event.preventDefault();
+                                            event.stopPropagation();
+                                        }
+                                        form.classList.add('was-validated');
+                                    }, false);
+                                });
+                            }, false);
+                        })();
+                    </script>
+                </div>    
+            </div>
+        </div>
+        <hr/>
+        <div class="container my-5 py-3">
+            <div class="row justify-content-center ">
+                <div class="col-md-8">
+                    <h1 class="text-center text-secondary mb-4">商品結帳完成</h1>
+                    <div class="alert alert-primary text-center alert-rounded" role="alert">
+                        訂購完成
+                    </div>
+                    <div class="h4 text-center my-4 ">購買資訊</div>
+                    <table class="table table-responsive">
+                        <thead>
+                            <tr>
+                                <th scope="col" width="140"></th>
+                                <th scope="col">商品名稱</th>
+                                <th scope="col" width="80">數量</th>
+                                <th scope="col" width="100">小計</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row"><img src="img/8.jpg" class="w-100 img-thumbnail" alt=""></th>
+                                <td>馬卡龍</td>
+                                <td>1 盒</td>
+                                <td class="text-right">$200</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="img/18.jpg" class="w-100 img-thumbnail" alt=""></th>
+                                <td>巧克力雪糕</td>
+                                <td>1 根</td>
+                                <td class="text-right">$80</td>
+                            </tr>
+                            <tr>
+                                <td class="text-right" colspan="3">運費</td>
+                                <td class="text-right">$60</td>
+                            </tr>
+                            <tr>
+                                <td class="text-right" colspan="3"><b>合計</b></td>
+                                <td class="text-right"><strong>$340</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="h4 text-center my-4">個人資料</div>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <th scope="row">Email</th>
+                                <td>qwepoi***@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">姓名</th>
+                                <td>Nicole LEE</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">電話</th>
+                                <td>12345***</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">地址</th>
+                                <td>***22巷2弄6號</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>   
+        </div>
+        <footer class="containt-fluid bg-light text-secondary my-4">
+            <div class="d-flex flex-column text-center">
+                <div class="my-3 mr-2">&copy Copyright 2019 <b class="text-primary mr-3">北歐廚房</b>
+                    <i class="fab fa-facebook-square text-primary mr-2"></i>
+                    <i class="fab fa-instagram text-primary mr-2 "></i>
+                    <i class="fab fa-twitter-square text-primary mr-2"></i>
+                </div>
+                <div>Made with Bootstrap4</div>
+            </div>        
+        </footer>
+<!-- Modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                是否確認刪除訂單？
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">否</button>
+                <button type="button" class="btn btn-outline-danger">是</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script>
+        $('#deleteModal').on('show.bs.modal', function (event) {
+            var btn = $(event.relatedTarget);
+            var title = btn.data("delete")
+            var modal = $(this);
+            modal.find('.modal-title').text(title);
+        })
+    </script>        
+</body>
+
+</html>
